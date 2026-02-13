@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW ecommerce.gold.transactions_enriched AS (
+CREATE OR REPLACE VIEW ecommerce.gold.vw_transactions_enriched AS (
   SELECT 
     i.*,
     -- Date Dimension Columns
